@@ -45,8 +45,8 @@ public class GameManager : MonoBehaviour
     public List<Image> chosenPassiveItemsUI = new List<Image>(6);
 
     [Header("Stopwatch")]
-    public float timeLimit; // The time limit in seconds
-    float stopwatchTime; // The current time elapsed since the stopwatch started
+    public float timeLimit; 
+    float stopwatchTime; 
     public TMP_Text stopwatchDisplay;
 
     // Oyunun bittiğini kontrol eder
